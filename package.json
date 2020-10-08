@@ -1,0 +1,27 @@
+{
+  "name": "@mathpix/vscode-mmd",
+  "version": "1.0.0",
+  "description": "vscode-mmd",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "contributes": {
+    "markdown.markdownItPlugins": true
+  },
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "devDependencies": {
+    "@types/vscode": "^1.33.0"
+  },
+  "dependencies": {
+    "mathpix-markdown-it": "^1.0.29"
+  }
+}
